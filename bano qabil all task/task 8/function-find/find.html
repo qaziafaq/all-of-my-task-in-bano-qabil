@@ -1,0 +1,31 @@
+<div class="function-page game-screen">
+    <div class="function-panel">
+        <div class="function-header">
+            <h1>Level 5: Array.find()</h1>
+            <p>Target the first winning item that meets the condition.</p>
+        </div>
+        <div class="game-box">
+            <div class="detail-block">
+                <h2>Syntax</h2>
+                <pre><code>array.find((item, index, array) =&gt; {
+  return condition;
+});</code></pre>
+            </div>
+            <div class="detail-block">
+                <h2>Purpose</h2>
+                <p>Returns the first element that satisfies the callback, or undefined if none match.</p>
+            </div>
+            <div class="detail-block">
+                <h2>Example</h2>
+                <pre><code>const users = [
+  { id: 1, name: 'Alice' },
+  { id: 2, name: 'Bob' },
+  { id: 3, name: 'Charlie' }
+];
+const user = users.find(u =&gt; u.id === 2);
+console.log(user); // { id: 2, name: 'Bob' }</code></pre>
+            </div>
+        </div>
+        <button class="back-button" onclick="app.router.navigate('home')">Exit to Home</button>
+    </div>
+</div>

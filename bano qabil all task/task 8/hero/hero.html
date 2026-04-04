@@ -1,0 +1,40 @@
+<div class="hero-wrapper">
+    <section class="hero-battlefield container">
+        <div class="hero-header">
+            <h1>JS Function Quest</h1>
+            <p class="hero-subtitle">Choose your next skill and enter the code arena.</p>
+        </div>
+
+        <div class="hero-info-card">
+            <p>Each function is a level in the quest. Click a card to unlock its syntax, purpose, and example. Only the Home portal is available from the menu.</p>
+        </div>
+
+        <div class="functions-grid">
+            <div class="function-card" onclick="app.router.navigate('function/map')">
+                <div class="function-icon">🧭</div>
+                <h3>Level 1</h3>
+                <p>Array.map() — Transform every item in the squad.</p>
+            </div>
+            <div class="function-card" onclick="app.router.navigate('function/filter')">
+                <div class="function-icon">🛡️</div>
+                <h3>Level 2</h3>
+                <p>Array.filter() — Keep only the champions that pass.</p>
+            </div>
+            <div class="function-card" onclick="app.router.navigate('function/reduce')">
+                <div class="function-icon">⚡</div>
+                <h3>Level 3</h3>
+                <p>Array.reduce() — Fuse the array into a final score.</p>
+            </div>
+            <div class="function-card" onclick="app.router.navigate('function/forEach')">
+                <div class="function-icon">🔁</div>
+                <h3>Level 4</h3>
+                <p>Array.forEach() — Trigger an action for every item.</p>
+            </div>
+            <div class="function-card" onclick="app.router.navigate('function/find')">
+                <div class="function-icon">🎯</div>
+                <h3>Level 5</h3>
+                <p>Array.find() — Locate the first target that qualifies.</p>
+            </div>
+        </div>
+    </section>
+</div>

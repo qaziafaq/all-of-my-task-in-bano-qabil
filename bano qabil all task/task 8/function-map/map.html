@@ -1,0 +1,27 @@
+<div class="function-page game-screen">
+    <div class="function-panel">
+        <div class="function-header">
+            <h1>Level 1: Array.map()</h1>
+            <p>Use map() to power-up each item in your array and build a new transformed squad.</p>
+        </div>
+        <div class="game-box">
+            <div class="detail-block">
+                <h2>Syntax</h2>
+                <pre><code>array.map((item, index, array) =&gt; {
+  return transformedItem;
+});</code></pre>
+            </div>
+            <div class="detail-block">
+                <h2>Purpose</h2>
+                <p>Transforms every element in an array into a new form without changing the original array.</p>
+            </div>
+            <div class="detail-block">
+                <h2>Example</h2>
+                <pre><code>const numbers = [1, 2, 3, 4];
+const doubled = numbers.map(num =&gt; num * 2);
+console.log(doubled); // [2, 4, 6, 8]</code></pre>
+            </div>
+        </div>
+        <button class="back-button" onclick="app.router.navigate('home')">Exit to Home</button>
+    </div>
+</div>

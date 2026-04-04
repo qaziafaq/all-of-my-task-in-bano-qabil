@@ -1,0 +1,27 @@
+<div class="function-page game-screen">
+    <div class="function-panel">
+        <div class="function-header">
+            <h1>Level 2: Array.filter()</h1>
+            <p>Filter out the weak and keep only the champions that pass the test.</p>
+        </div>
+        <div class="game-box">
+            <div class="detail-block">
+                <h2>Syntax</h2>
+                <pre><code>array.filter((item, index, array) =&gt; {
+  return condition;
+});</code></pre>
+            </div>
+            <div class="detail-block">
+                <h2>Purpose</h2>
+                <p>Creates a new array containing only the items that satisfy the callback condition.</p>
+            </div>
+            <div class="detail-block">
+                <h2>Example</h2>
+                <pre><code>const numbers = [1, 2, 3, 4, 5, 6];
+const evens = numbers.filter(num =&gt; num % 2 === 0);
+console.log(evens); // [2, 4, 6]</code></pre>
+            </div>
+        </div>
+        <button class="back-button" onclick="app.router.navigate('home')">Exit to Home</button>
+    </div>
+</div>

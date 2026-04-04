@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enrollment Form</title>
+<link rel="stylesheet" href="Enroll.css">
+</head>
+
+<body>
+
+<h1 class="title">Enrollment Here</h1>
+
+<div class="Personal-container" id="personalContainer">
+<h2>Personal</h2>
+<form id="personalForm">
+<input type="text" id="nameInput" placeholder="Enter Name" required>
+<input type="number" id="ageInput" placeholder="Enter Age" required>
+<input type="text" id="fatherNameInput" placeholder="Enter Father's Name" required>
+<input type="text" id="cityInput" placeholder="Enter City" required>
+<input type="text" id="countryInput" placeholder="Enter Country" required>
+<input type="email" id="emailInput" placeholder="Enter Email" required>
+<button type="button" id="nextBtn">Next</button>
+</form>
+</div>
+
+<div class="Education-container" id="educationContainer">
+<h2>Education</h2>
+<form id="educationForm">
+<select id="educationInput" required>
+<option value="">Select Education Level</option>
+<option value="School">School</option>
+<option value="College">College</option>
+<option value="University">University</option>
+</select>
+<input type="number" id="totalMarksInput" placeholder="Enter Total Marks" required>
+<input type="number" id="marksInput" placeholder="Enter Marks obtained" required>
+<input type="text" id="schoolInput" placeholder="Enter School Name" required>
+<input type="text" id="UniverstyInput" placeholder="Enter University Name" required>
+<input type="text" id="DegreeInput" placeholder="Enter Degree" required>
+<button type="button" id="backBtn">Back</button>
+<button type="submit">Submit</button>
+</form>
+</div>
+
+<div id="messageBox" class="message-box">
+<div class="message-content">
+<p id="messageText"></p>
+<div class="message-buttons" id="messageButtons">
+<button id="yesBtn">Yes</button>
+<button id="noBtn">No</button>
+</div>
+
+<button id="okBtn" style="display:none;">OK</button>
+</div>
+</div>
+
+<script src="Enroll.js"></script>
+
+</body>
+</html>

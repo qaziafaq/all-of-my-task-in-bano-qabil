@@ -1,0 +1,78 @@
+.game-screen {
+    background: radial-gradient(circle at top, #111827 0%, #030712 100%);
+    color: #f8fafc;
+    min-height: 100%;
+    padding: 30px;
+}
+
+.function-panel {
+    border: 2px solid #facc15;
+    border-radius: 24px;
+    padding: 30px;
+    background: rgba(12, 12, 20, 0.96);
+    box-shadow: 0 0 35px rgba(250, 204, 21, 0.24);
+}
+
+.function-header h1 {
+    font-size: 42px;
+    color: #fbbf24;
+    margin-bottom: 10px;
+}
+
+.function-header p {
+    color: #fde68a;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.game-box {
+    display: grid;
+    gap: 20px;
+}
+
+.detail-block {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(250, 204, 21, 0.4);
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.detail-block h2 {
+    margin-bottom: 12px;
+    color: #fef9c3;
+}
+
+.detail-block p {
+    line-height: 1.7;
+    color: #f8fafc;
+}
+
+pre {
+    background: rgba(255, 255, 255, 0.06);
+    border-left: 4px solid #facc15;
+    color: #f8fafc;
+    padding: 18px;
+    border-radius: 12px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+.back-button {
+    margin-top: 25px;
+    width: 100%;
+    border: none;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #facc15 0%, #eab308 100%);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background: linear-gradient(90deg, #eab308 0%, #ca8a04 100%);
+}

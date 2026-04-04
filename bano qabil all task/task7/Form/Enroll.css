@@ -1,0 +1,92 @@
+body{
+font-family: Arial, sans-serif;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+gap:20px;
+height:100vh;
+background:#f0f0f0;
+}
+
+.title{
+font-size:32px;
+font-weight:bold;
+}
+
+.Personal-container{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,0.2);
+width:300px;
+}
+
+.Education-container{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,0.2);
+width:300px;
+display:none;
+}
+
+h2{
+text-align:center;
+margin-bottom:20px;
+}
+
+input, select{
+width:100%;
+padding:8px 10px;
+margin:8px 0;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+width:100%;
+padding:10px;
+margin-top:10px;
+border:none;
+border-radius:5px;
+background:#4CAF50;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#45a049;
+}
+
+.message-box{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.5);
+
+display:none;
+justify-content:center;
+align-items:center;
+}
+
+.message-content{
+background:white;
+padding:25px;
+border-radius:10px;
+width:320px;
+text-align:center;
+}
+
+.message-buttons{
+margin-top:20px;
+display:flex;
+gap:10px;
+}
+
+.message-buttons button{
+flex:1;
+}

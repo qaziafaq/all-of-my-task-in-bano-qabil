@@ -1,0 +1,28 @@
+<div class="function-page game-screen">
+    <div class="function-panel">
+        <div class="function-header">
+            <h1>Level 4: Array.forEach()</h1>
+            <p>Activate every item in the squad and perform an action for each one.</p>
+        </div>
+        <div class="game-box">
+            <div class="detail-block">
+                <h2>Syntax</h2>
+                <pre><code>array.forEach((item, index, array) =&gt; {
+  // do something with item
+});</code></pre>
+            </div>
+            <div class="detail-block">
+                <h2>Purpose</h2>
+                <p>Runs a callback for each array element without producing a new array.</p>
+            </div>
+            <div class="detail-block">
+                <h2>Example</h2>
+                <pre><code>const fruits = ['apple', 'banana', 'cherry'];
+fruits.forEach((fruit, index) =&gt; {
+  console.log(index + ': ' + fruit);
+});</code></pre>
+            </div>
+        </div>
+        <button class="back-button" onclick="app.router.navigate('home')">Exit to Home</button>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<div class="function-page game-screen">
+    <div class="function-panel">
+        <div class="function-header">
+            <h1>Level 3: Array.reduce()</h1>
+            <p>Combine all elements into one final score using reduce().</p>
+        </div>
+        <div class="game-box">
+            <div class="detail-block">
+                <h2>Syntax</h2>
+                <pre><code>array.reduce((acc, item, index, array) =&gt; {
+  return updatedAcc;
+}, initialValue);</code></pre>
+            </div>
+            <div class="detail-block">
+                <h2>Purpose</h2>
+                <p>Reduces an array to a single value, like a score total or summary object.</p>
+            </div>
+            <div class="detail-block">
+                <h2>Example</h2>
+                <pre><code>const numbers = [1, 2, 3, 4];
+const sum = numbers.reduce((acc, num) =&gt; acc + num, 0);
+console.log(sum); // 10</code></pre>
+            </div>
+        </div>
+        <button class="back-button" onclick="app.router.navigate('home')">Exit to Home</button>
+    </div>
+</div>
